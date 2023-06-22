@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../font/Yekan.woff2') format('woff2'),
+         url('../font/Yekan.woff') format('woff'),
+         url('../font/Yekan.ttf') format('truetype');
+  }
+
+  
+body {
+    font-family: yekan;
+    direction: rtl;
+}
+
+
+
+.s1 {
+    background: url(/project/image/1.jpg);
+    background-size: cover;
+}
+
+.s1 ul {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.s1 ul li {
+    margin: 20px 30px;
+}
+
+.s1 ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.fp-controlArrow.fp-prev {
+    position: absolute;
+    top: 85%;
+    left: 100px !important;
+    border-width: 20.5px 20px 20.5px 0;
+}
+
+.fp-controlArrow.fp-next{
+    position: absolute;
+    top: 85%;
+    right: 90% !important;
+    border-width: 20.5px 20px 20.5px 0;
+
+}
+
+.s1 h1 {
+    text-align: left;
+    width: 80%;
+    color: white;
+    font-size: 50px;
+    margin-top: -250px;
+}
+.s1 h1 a {
+    text-decoration: none;
+    color: rgb(255, 74, 29);
+}
+
+
+
+.s2 {
+    background: url(/project/image/2.jpg);
+    background-size: cover;
+}
+
+.s3 {
+    background: url(/project/image/3.jpg);
+    background-size: cover;
+}
+
+.s4 {
+    background: url(/project/image/4.jpg);
+    background-size: cover;
+}
+
+.s5 {
+    background: #000; 
+}
+
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background-color: white !important;
+}
+#fp-nav ul li a.active span {
+    background-color: rgb(242, 22, 22) !important;
+}
