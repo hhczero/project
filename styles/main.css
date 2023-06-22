@@ -11,6 +11,9 @@ body {
     direction: rtl;
 }
 
+*{
+    box-sizing: border-box;
+}
 
 
 .s1 {
@@ -195,14 +198,79 @@ body {
 
 
 
-
-
-
-
 .s4 {
     background: url(/project/image/4.jpg);
     background-size: cover;
 }
+
+.s4 .sectionfour {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.s4 .sectionfour h1 {
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+.s4 .sectionfour h1 span {
+    color: #ff1a1a;
+    margin-right: 5px;
+}
+
+.s4 .sectionfour form {
+    width: 28%;
+
+
+}
+
+.s4 .sectionfour form input {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'yekan';
+    background: rgba(0, 0, 0, 0.8);
+    border: 4px solid #333;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+
+.s4 .sectionfour form textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 4px solid #333;
+    font-family: 'yekan';
+    font-size: 18px;
+
+}
+::placeholder{
+    color: rgb(204, 204, 204);
+}
+
+.s4 .sectionfour form input[type=submit]{
+    width: 100%;
+    color: white;
+    background: #ff1a1a;
+    border: none;
+    font-size: 18px;
+    
+}
+
+
+
 
 .s5 {
     background: #000; 
