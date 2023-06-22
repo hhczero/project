@@ -73,6 +73,59 @@ body {
     background-size: cover;
 }
 
+.s2 .sectiontwo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.s2 .sectiontwo h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 50px;
+
+}
+.s2 .sectiontwo h1 span {
+    color: red;
+}
+
+.s2 .sectiontwo ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center ;
+}
+
+.s2 .sectiontwo ul li {
+    width: 49%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.s2 .sectiontwo ul li a {
+    text-decoration: none ;
+    color: #000;
+}
+.s2 .sectiontwo ul li a h4 {
+    padding: 30px 0px;
+    
+}
+
+.s2 .sectiontwo ul li svg {
+    font-size: 150px;
+}
+
+
 .s3 {
     background: url(/project/image/3.jpg);
     background-size: cover;
