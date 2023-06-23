@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'yekan';
     src: url('../font/Yekan.woff2') format('woff2'),
-         url('../font/Yekan.woff') format('woff'),
-         url('../font/Yekan.ttf') format('truetype');
-  }
+        url('../font/Yekan.woff') format('woff'),
+        url('../font/Yekan.ttf') format('truetype');
+}
 
-  
+
 body {
     font-family: yekan;
     direction: rtl;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -49,7 +49,7 @@ body {
     border-width: 20.5px 20px 20.5px 0;
 }
 
-.fp-controlArrow.fp-next{
+.fp-controlArrow.fp-next {
     position: absolute;
     top: 85%;
     right: 90% !important;
@@ -64,6 +64,7 @@ body {
     font-size: 50px;
     margin-top: -250px;
 }
+
 .s1 h1 a {
     text-decoration: none;
     color: rgb(255, 74, 29);
@@ -91,6 +92,7 @@ body {
     margin-bottom: 50px;
 
 }
+
 .s2 .sectiontwo h1 span {
     color: red;
 }
@@ -99,7 +101,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center ;
+    align-items: center;
 }
 
 .s2 .sectiontwo ul li {
@@ -116,12 +118,13 @@ body {
 }
 
 .s2 .sectiontwo ul li a {
-    text-decoration: none ;
+    text-decoration: none;
     color: #000;
 }
+
 .s2 .sectiontwo ul li a h4 {
     padding: 30px 0px;
-    
+
 }
 
 .s2 .sectiontwo ul li svg {
@@ -147,7 +150,7 @@ body {
     color: white;
     font-size: 60px;
     width: 100%;
-    text-align: center ;
+    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -162,7 +165,7 @@ body {
     text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
 }
 
 .s3 .sectionthree ul li {
@@ -181,14 +184,16 @@ body {
 .s3 .sectionthree ul li a {
     text-decoration: none;
     color: black;
-    
-    
+
+
 }
+
 .s3 .sectionthree ul li a img {
     width: 90%;
     height: 250px;
-   
+
 }
+
 .s3 .sectionthree ul li a h4 {
     margin: 10px 0px;
 }
@@ -240,7 +245,7 @@ body {
     border: 4px solid #333;
     margin-bottom: 20px;
     font-size: 18px;
-    
+
 }
 
 .s4 .sectionfour form textarea {
@@ -256,30 +261,60 @@ body {
     font-size: 18px;
 
 }
-::placeholder{
+
+::placeholder {
     color: rgb(204, 204, 204);
 }
 
-.s4 .sectionfour form input[type=submit]{
+.s4 .sectionfour form input[type=submit] {
     width: 100%;
     color: white;
     background: #ff1a1a;
     border: none;
     font-size: 18px;
-    
+
 }
-
-
 
 
 .s5 {
-    background: #000; 
+    background: #000;
 }
 
 
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
+.s5 .about {
+    width: 900px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    
+}
+
+.s5 .about h2 {
+    font-size: 50px;
+    margin-bottom: 150px;
+    
+}
+
+.s5 .footer ul {
+    color: white;
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.s5 .footer ul li {
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
     background-color: white !important;
 }
+
 #fp-nav ul li a.active span {
     background-color: rgb(242, 22, 22) !important;
 }
