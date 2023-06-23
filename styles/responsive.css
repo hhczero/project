@@ -1,0 +1,95 @@
+@media screen and (max-width : 1200px) {
+    .s3 .sectionthree ul {
+        width: 56%;
+    }
+
+    .fp-controlArrow.fp-prev {
+        left: 28px !important;
+    }
+}
+
+
+@media screen and (max-width : 992px) {
+    .s5 .about {
+        width: 720px;
+    }
+
+    .s3 .sectionthree ul {
+        width: 78%;
+    }
+
+    .fp-controlArrow.fp-next {
+        right: 88% !important;
+    }
+}
+
+
+
+@media screen and (max-width : 768px) {
+
+    .fp-controlArrow.fp-prev {
+        position: absolute;
+        top: 64%;
+        left: 30px !important;
+    }
+
+    .fp-controlArrow.fp-next {
+        position: absolute;
+        top: 64%;
+        right: 82% !important;
+    }
+}
+
+.s3 .sectionthree ul {
+    width: 93%;
+}
+
+.s5 .footer ul {
+    width: 720px;
+}
+
+
+@media screen and (max-width : 576px) {
+    .s1 ul li a {
+        font-size: 12px;
+    }
+
+    .fp-controlArrow.fp-next {
+        position: absolute;
+        top: 64%;
+        right: 78% !important;
+    }
+
+    .s3 .sectionthree ul {
+        width: 71%;
+    }
+
+    .s3 .sectionthree ul li {
+        width: 42%;
+    }
+
+    .s3 .sectionthree ul li a img {
+        width: 97%;
+        height: 118px;
+    }
+
+    .s4 .sectionfour form {
+        width: 49%;
+      }
+      .s5 .footer ul {
+        width: 608px;
+      }
+
+      .s5 .about h2{
+        margin-left: 180px;
+      }
+
+    
+      .s5 .about p {
+        font-size: 17px;
+        width: 400px;
+        margin-right: 100px;
+      }
+
+
+}
