@@ -29,6 +29,7 @@ body {
     text-align: center;
     list-style: none;
     justify-content: center;
+    z-index: 1000;
 
 }
 
